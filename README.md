@@ -1,5 +1,5 @@
-### Istanbul-Card-Visit
-Site page about places to visit in istanbul / İstanbul'da gezilecek yerlerle ilgili site sayfası</h4>
+### GitHub
+Site page similar to GitHub site + Responsive / GitHub sitesinin kısa bir kopyası + Responsive
 
 
 ## Used Technologies / Kullanılan Teknolojiler
