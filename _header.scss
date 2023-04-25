@@ -1,0 +1,84 @@
+@import "media";
+
+.header{
+    background-color: $header-bg;
+    @extend .flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 55px;
+
+    .header-left{
+        @extend .flex;
+        gap: 15px;
+
+        .fa-github{
+            font-size:$font-size-i;
+            color: #fff;
+        }
+
+        .input{
+            position: relative;
+            
+            input{
+                width: 100%;
+                background-color: hsla(0,0%, 100%, .125);
+                width: 240px;
+                padding: 6px 3px;
+                border: none;
+                outline: none;  
+                color: #fff; 
+            }
+            ::placeholder{
+                font-size: 14px;
+            }
+            .fa-solid{
+                position: absolute;
+                right: 4px;
+                top: 8px;
+                font-size: smaller;
+            }
+        }
+
+        .link{
+            
+            @extend .flex;
+            gap:14px;
+
+            
+
+            @include ramazan{
+                display: none;
+                background-color: chocolate;
+            }
+            a{
+               
+                text-decoration: none;
+                color: $color-white;
+                font-family: $my-font;
+                font-size:$font-size;
+                white-space: nowrap;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+    .header-right{
+        .fa-bars{
+            display: none;
+            @include bars{
+                display: block;
+                margin-right: 20px;
+            }
+        }
+
+        @extend .flex;
+        gap: 9px;
+        
+        i{
+            color: #ccc;
+            font-size:medium;
+        }
+    }
+  }

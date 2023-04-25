@@ -1,0 +1,12 @@
+@mixin ramazan{
+    @media screen and (max-width:760px) {
+
+       @content;
+    }
+}
+@mixin bars{
+    @media  screen and (max-width:760px) {
+        @content
+        
+    }
+}

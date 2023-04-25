@@ -1,0 +1,208 @@
+.flex, .section .section-right .section-bottom .card .bars .two, .section .section-right .section-bottom .pin, .section .section-right .section-top, .header .header-right, .header .header-left .link, .header .header-left, .header {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  background-color: #24292e;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 55px;
+}
+.header .header-left {
+  gap: 15px;
+}
+.header .header-left .fa-github {
+  font-size: xx-large;
+  color: #fff;
+}
+.header .header-left .input {
+  position: relative;
+}
+.header .header-left .input input {
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 0.125);
+  width: 240px;
+  padding: 6px 3px;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.header .header-left .input ::-moz-placeholder {
+  font-size: 14px;
+}
+.header .header-left .input ::placeholder {
+  font-size: 14px;
+}
+.header .header-left .input .fa-solid {
+  position: absolute;
+  right: 4px;
+  top: 8px;
+  font-size: smaller;
+}
+.header .header-left .link {
+  gap: 14px;
+}
+@media screen and (max-width: 760px) {
+  .header .header-left .link {
+    display: none;
+    background-color: chocolate;
+  }
+}
+.header .header-left .link a {
+  text-decoration: none;
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.header .header-left .link a:hover {
+  transform: scale(1.1);
+}
+.header .header-right {
+  gap: 9px;
+}
+.header .header-right .fa-bars {
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .header .header-right .fa-bars {
+    display: block;
+    margin-right: 20px;
+  }
+}
+.header .header-right i {
+  color: #ccc;
+  font-size: medium;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 10px;
+}
+.section .section-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+@media screen and (max-width: 760px) {
+  .section .section-left {
+    margin-right: 250px;
+  }
+}
+.section .section-left img {
+  width: 200px;
+}
+.section .section-left button {
+  padding: 8px 26px;
+  font-size: medium;
+}
+.section .section-left button:hover {
+  background-color: rgb(197, 184, 167);
+  border: none;
+  padding: 10px 30px;
+}
+.section .section-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+}
+.section .section-right .section-top {
+  gap: 26px;
+  opacity: 0.9;
+}
+@media screen and (max-width: 760px) {
+  .section .section-right .section-top {
+    gap: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.section .section-right .section-top a {
+  text-decoration: none;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.section .section-right .section-top a:hover {
+  transform: scale(1.1);
+}
+.section .section-right .section-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 15px;
+}
+.section .section-right .section-bottom .pin {
+  justify-content: space-between;
+  opacity: 0.9;
+}
+@media screen and (max-width: 760px) {
+  .section .section-right .section-bottom .pin {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.section .section-right .section-bottom .pin a {
+  text-decoration: none;
+  color: black;
+}
+.section .section-right .section-bottom .card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+}
+@media screen and (max-width: 760px) {
+  .section .section-right .section-bottom .card {
+    padding: 10px;
+  }
+}
+.section .section-right .section-bottom .card .bars {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.section .section-right .section-bottom .card .bars .two {
+  justify-content: space-between;
+  padding: 8px;
+}
+.section .section-right .section-bottom .card .bars .two div {
+  font-size: 15px;
+}
+.section .section-right .section-bottom .card .bars .color {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: flex-start;
+}
+.section .section-right .section-bottom .card .bars .color p {
+  font-size: 14px;
+  margin-left: 2px;
+}
+.section .section-right .section-bottom .card .bars .color span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgb(207, 6, 130);
+  display: inline-block;
+}
+.section .section-right .section-bottom .card .bars .color .red {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */
