@@ -7,4 +7,4 @@ HTML-CSS / HTML ve CSS kullanıldı
 
 ## Screenshot / Ekran Görüntüsü:
 
- ![](istanbul-study.gif)
+ ![](GitHub.gif)
