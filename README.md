@@ -3,7 +3,7 @@ Site page similar to GitHub site + Responsive / GitHub sitesinin kısa bir kopya
 
 
 ## Used Technologies / Kullanılan Teknolojiler
-HTML-CSS / HTML ve CSS kullanıldı
+HTML-SCSS-CSS / HTML-SCSS ve CSS kullanıldı
 
 ## Screenshot / Ekran Görüntüsü:
 
